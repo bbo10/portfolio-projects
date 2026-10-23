@@ -10,9 +10,9 @@
 | # | 프로젝트 | 질문 | 구성 | 폴더 |
 |---|---|---|---|---|
 | 01 | 원석 액세서리 브랜드 매출 정체 분석 | 광고를 해도 매출이 줄어드는 쇼핑몰, 무엇에 집중해야 할까? | 4인 팀 · 기여도 30% | [project-jewelry](project-jewelry/) |
-| 02 | Instacart 재구매 전략 | 재구매를 늘리려면 주문 크기와 빈도 중 무엇을 키워야 할까? | 4인 팀 · 기여도 30% | [project-instacart](project-instacart/) |
-| 03 | 손익 기준 신용 승인 정책 | 정확한 모델이 손익도 좋은 승인 정책일까? | 4인 팀 · 기여도 25% | [project-credit](project-credit/) |
-| 04 | 실질 주유 비용 분석 | 대전에 가서 넣을까, 청주에서 싼 곳을 찾을까? | 개인 | [project-gas_station](project-gas_station/) |
+| 02 | 실질 주유 비용 분석 | 대전에 가서 넣을까, 청주에서 싼 곳을 찾을까? | 개인 | [project-gas_station](project-gas_station/) |
+| 03 | Instacart 재구매 전략 | 재구매를 늘리려면 주문 크기와 빈도 중 무엇을 키워야 할까? | 4인 팀 · 기여도 30% | [project-instacart](project-instacart/) |
+| 04 | 손익 기준 신용 승인 정책 | 정확한 모델이 손익도 좋은 승인 정책일까? | 4인 팀 · 기여도 25% | [project-credit](project-credit/) |
 
 **각 README 구성:** 한 줄 요약 → 노트북 지도 → 핵심 코드 → 재현 방법
 
