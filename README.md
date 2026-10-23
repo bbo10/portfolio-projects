@@ -1,62 +1,19 @@
-# Data Analytics Portfolio
+# Portfolio Projects
 
-데이터를 통해 문제를 설명하는 것에서 끝나지 않고,  
-실제 실행 가능한 전략으로 연결하는 분석가입니다.
+저는 **"이 문제를 해결하지 않으면 무엇이 계속 나빠질까?"**라는 질문에서 시작해, 데이터로 원인을 좁히고 누가 보더라도 같은 결정을 내릴 수 있는 기준으로 정리합니다.
 
-분석 결과를 의사결정 기준으로 번역하고,  
-실험 설계까지 포함해 “적용 가능한 수준”으로 만드는 데 집중합니다.
+이 저장소는 포트폴리오 프로젝트의 **코드와 분석 과정**을 담고 있습니다.
+무엇을 알아냈는지(결론, 차트)는 포트폴리오 사이트에, 어떻게 했는지(노트북 구조, 핵심 코드, 재현 방법)는 각 폴더의 README에 정리했습니다.
 
----
+> 포트폴리오 사이트: (배포 후 주소 추가)
 
-## What I Do
+| # | 프로젝트 | 질문 | 구성 | 폴더 |
+|---|---|---|---|---|
+| 01 | 원석 액세서리 브랜드 매출 정체 분석 | 광고를 해도 매출이 줄어드는 쇼핑몰, 무엇에 집중해야 할까? | 4인 팀 · 기여도 30% | [project-jewelry](project-jewelry/) |
+| 02 | Instacart 재구매 전략 | 재구매를 늘리려면 주문 크기와 빈도 중 무엇을 키워야 할까? | 4인 팀 · 기여도 30% | [project-instacart](project-instacart/) |
+| 03 | 손익 기준 신용 승인 정책 | 정확한 모델이 손익도 좋은 승인 정책일까? | 4인 팀 · 기여도 25% | [project-credit](project-credit/) |
+| 04 | 실질 주유 비용 분석 | 대전에 가서 넣을까, 청주에서 싼 곳을 찾을까? | 개인 | [project-gas_station](project-gas_station/) |
 
-- 단순 지표 분석이 아닌 의사결정 기준 설계
-- 분석 결과를 실행 가능한 전략으로 연결
-- 성과를 검증할 수 있는 실험 구조 설계
+**각 README 구성:** 한 줄 요약 → 노트북 지도 → 핵심 코드 → 재현 방법
 
----
-
-## Projects
-
-### Credit Risk Policy Optimization
-신용 승인 문제를 분류 모델이 아닌 손익 기반 의사결정 문제로 정의하고  
-Expected Profit 기준 승인 정책을 설계
-
-→ project-credit/
-
----
-
-### Instacart Retention Strategy
-고객 세분화를 기반으로 재구매를 만드는 핵심 고객과 행동을 정의하고  
-CRM 실행 전략으로 연결
-
-→ project-instacart/
-
----
-
-### E-commerce Growth Strategy
-광고 효율 하락 문제를 고객 구조와 상품 구조 관점에서 분석하고  
-성장 전략을 재설계
-
-→ project-jewelry/
-
----
-
-### Gas Station Optimization
-가격이 아닌 실질 비용 기준으로 주유 의사결정을 재정의하고  
-즉시 활용 가능한 계산 구조 설계
-
-→ project-gas_station/
-
----
-
-## How to Read
-
-각 프로젝트는 다음 흐름으로 구성되어 있습니다:
-
-- 문제 정의
-- 데이터 분석
-- 전략 도출
-- 실험 설계
-
-분석 결과를 실제 실행까지 연결한 과정을 담았습니다.
+**Tools:** Python (pandas, NumPy, matplotlib, seaborn, plotly, scikit-learn, XGBoost, mlxtend, pyproj, folium), Kakao Local API, Opinet API
